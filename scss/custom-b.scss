@@ -55,4 +55,15 @@ $foont : "Rubik", sans-serif;
     background-color: #787879; 
     border-color: #5a5a5aba;
   }
+
+  //EFFETTO ALL HOVERINO
+  .card{
+    transition: all 0.8s ease-in;
+    &:hover{
+      transform: scale(1.2);
+      overflow: visible
+    }
+  }
+
+
 @import "./bootstrap.scss";

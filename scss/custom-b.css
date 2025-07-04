@@ -43,6 +43,14 @@
   border-color: rgba(90, 90, 90, 0.7294117647);
 }
 
+.card {
+  transition: all 0.8s ease-in;
+}
+.card:hover {
+  transform: scale(1.2);
+  overflow: visible;
+}
+
 /*!
  * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
