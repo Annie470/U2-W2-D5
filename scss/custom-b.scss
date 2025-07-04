@@ -1,0 +1,23 @@
+@import "./functions";
+@import "./variables";
+
+//WIDTH
+$width-map: (
+    10: 10%,
+    15: 15%,
+    125: 125%,
+  ); 
+@each $name, $value in $width-map {
+    .w-#{$name} {
+        width: $value;
+    }
+}
+
+//BORDER
+.no-border {
+  border: none !important;
+}
+.no-radius {
+  border-radius: 0 !important;
+}
+@import "./bootstrap.scss";
