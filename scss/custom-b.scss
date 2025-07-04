@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import "./functions";
 @import "./variables";
 
@@ -20,4 +21,38 @@ $width-map: (
 .no-radius {
   border-radius: 0 !important;
 }
+@mixin b-profile{
+border-bottom: 1px solid $secondary,
+}
+.bprofile {
+  @include b-profile;
+}
+
+@mixin b-profilet{
+border-top: 1px solid $secondary,
+}
+.bprofilet {
+  @include b-profilet;
+}
+
+//FONT
+$foont : "Rubik", sans-serif;
+@mixin fontNetflix {
+  font-family: $foont;
+  font-weight: 600;
+}
+.fooont {
+  @include fontNetflix;
+}
+
+//CHECKED
+.form-check-input.transparent-checkbox {
+    background-color: transparent;
+    border: 1px solid #838383ba;
+  }
+
+  .form-check-input.transparent-checkbox:checked {
+    background-color: #787879; 
+    border-color: #5a5a5aba;
+  }
 @import "./bootstrap.scss";

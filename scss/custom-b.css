@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .w-10 {
   width: 10%;
 }
@@ -17,6 +18,29 @@
 
 .no-radius {
   border-radius: 0 !important;
+}
+
+.bprofile {
+  border-bottom: 1px solid #6c757d;
+}
+
+.bprofilet {
+  border-top: 1px solid #6c757d;
+}
+
+.fooont {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.form-check-input.transparent-checkbox {
+  background-color: transparent;
+  border: 1px solid rgba(131, 131, 131, 0.7294117647);
+}
+
+.form-check-input.transparent-checkbox:checked {
+  background-color: #787879;
+  border-color: rgba(90, 90, 90, 0.7294117647);
 }
 
 /*!
